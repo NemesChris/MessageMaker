@@ -48,9 +48,9 @@ Partial Class Form1
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(238, Byte))
         Me.Label1.Location = New System.Drawing.Point(12, 9)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(77, 20)
+        Me.Label1.Size = New System.Drawing.Size(92, 20)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Név színe"
+        Me.Label1.Text = "Name Color"
         '
         'ListBox1
         '
@@ -67,9 +67,9 @@ Partial Class Form1
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(238, Byte))
         Me.Label2.Location = New System.Drawing.Point(16, 163)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(33, 20)
+        Me.Label2.Size = New System.Drawing.Size(87, 20)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Arc"
+        Me.Label2.Text = "Used Face"
         '
         'PictureBox1
         '
@@ -86,7 +86,7 @@ Partial Class Form1
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 4
-        Me.Button1.Text = "Következő"
+        Me.Button1.Text = "Next Face"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'TextBox1
@@ -111,9 +111,9 @@ Partial Class Form1
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(238, Byte))
         Me.Label3.Location = New System.Drawing.Point(149, 9)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(62, 20)
+        Me.Label3.Size = New System.Drawing.Size(107, 20)
         Me.Label3.TabIndex = 7
-        Me.Label3.Text = "Szöveg"
+        Me.Label3.Text = "Text to Speak"
         '
         'TextBox3
         '
@@ -129,9 +129,9 @@ Partial Class Form1
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(238, Byte))
         Me.Button2.Location = New System.Drawing.Point(153, 127)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(134, 30)
+        Me.Button2.Size = New System.Drawing.Size(172, 30)
         Me.Button2.TabIndex = 9
-        Me.Button2.Text = "Minden egyben"
+        Me.Button2.Text = "Combine it together!"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Label4
@@ -157,15 +157,15 @@ Partial Class Form1
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(238, Byte))
         Me.Label5.Location = New System.Drawing.Point(16, 335)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(110, 20)
+        Me.Label5.Size = New System.Drawing.Size(108, 20)
         Me.Label5.TabIndex = 12
-        Me.Label5.Text = "Képek elérése"
+        Me.Label5.Text = "Path to Faces"
         '
         'TextBox5
         '
         Me.TextBox5.Location = New System.Drawing.Point(17, 358)
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(243, 20)
+        Me.TextBox5.Size = New System.Drawing.Size(379, 20)
         Me.TextBox5.TabIndex = 13
         Me.TextBox5.Text = "D:\LoL3XP\Graphics\Faces\"
         '
@@ -174,7 +174,7 @@ Partial Class Form1
         Me.ListBox2.FormattingEnabled = True
         Me.ListBox2.Location = New System.Drawing.Point(153, 270)
         Me.ListBox2.Name = "ListBox2"
-        Me.ListBox2.Size = New System.Drawing.Size(120, 82)
+        Me.ListBox2.Size = New System.Drawing.Size(145, 82)
         Me.ListBox2.TabIndex = 14
         '
         'Label6
@@ -183,9 +183,9 @@ Partial Class Form1
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(238, Byte))
         Me.Label6.Location = New System.Drawing.Point(12, 94)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(36, 20)
+        Me.Label6.Size = New System.Drawing.Size(125, 20)
         Me.Label6.TabIndex = 15
-        Me.Label6.Text = "Név"
+        Me.Label6.Text = "Character Name"
         '
         'TextBox6
         '
@@ -218,8 +218,10 @@ Partial Class Form1
         Me.Controls.Add(Me.ListBox1)
         Me.Controls.Add(Me.Label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MaximizeBox = False
         Me.Name = "Form1"
-        Me.Text = "MessageMaker"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "MessageMaker for RM XP"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
